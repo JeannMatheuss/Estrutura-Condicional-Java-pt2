@@ -25,5 +25,18 @@ public class MaiorMenor {
             System.out.println("Os valores são iguais");
         }
 
+        if (A < B && A < C) {
+            System.out.println("O menor valor é: " + A);
+        }
+        else if (B < A && B < C) {
+            System.out.println("O menor valor é: " + B);
+        }
+        else if (C < A && C < B) {
+            System.out.println("O menor valor é: " + C);
+        }
+        else {
+            System.out.println("Os valores são iguais");
+        }
+
     }
 }
