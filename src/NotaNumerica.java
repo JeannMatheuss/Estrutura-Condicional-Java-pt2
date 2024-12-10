@@ -22,6 +22,9 @@ public class NotaNumerica {
         else if (nota >= 0 && nota < 2.5) {
             System.out.println("Nota E");
         }
+        else {
+            System.out.println("Nota invalida");
+        }
         
     }
 }
